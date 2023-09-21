@@ -1,0 +1,97 @@
+.cashback {
+  @extend %section;
+  background-image: url("../../images/Art/homepage_blog_bg.webp");
+  background-size: contain;
+}
+.cashback-discount {
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10px;
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 5px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
+.cashback-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.cashback-photo {
+  border-radius: 10px;
+}
+.cashback-text-block {
+  @media screen and (min-width: 1199px) {
+    width: 500px;
+  }
+  @media screen and (min-width: 1199px) {
+    width: 550px;
+  }
+}
+.cashback-picture {
+  margin-left: 40px;
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
+}
+.text-block {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+  @media screen and (max-width: 1199px) {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+}
+.cashback-conditions {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+}
+
+.cashback-text {
+  margin-bottom: 5px;
+  @media screen and (max-width: 1199px) {
+    // font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+.cashback-text:last-child {
+  margin-bottom: 0px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+.cashback-links {
+  color: black;
+  &:hover,
+  &:focus {
+    color: orange;
+  }
+}
